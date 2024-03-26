@@ -1,0 +1,37 @@
+
+
+
+.Resume{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 20px;
+}
+.ResumeImage{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    grid-gap:40px;
+}
+.ResumeImage > button{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    height: 80px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    background-color: rgba(0, 0, 255, 0.73);
+}
+
+#ResImage{
+    height: 800px;
+    width: 700px;
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.519);
+    
+}
+

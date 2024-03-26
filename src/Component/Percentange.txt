@@ -1,0 +1,195 @@
+<div className="Heading">
+                <h1>Explore My Skills</h1>
+                <div>
+                    <h1>Programming Languages   </h1>
+                </div>
+                <div className="Language">
+                    <div className="LanName1">
+                        <img src={C} alt="#" id="C"></img>
+                        <p id="Bar"></p>
+                    </div>
+                    <div className="LanName2">
+                        <img src={Java} alt="#" id="Java"></img>
+                        <p id="Bar"></p>
+                    </div>
+                    <div className="LanName3">
+                        {/* <img src={Python} alt="#" id="Python"></img> */}
+                        <p id="Bar"></p>
+                    </div>
+                    <div className="LanName4">
+                        <img src={Cpp} alt="#" id="Cpp"></img>
+                        <p id="Bar"></p>
+                    </div>
+                </div>
+                <div className="WebDeveloping">
+                    <h1>Web Developing</h1>
+                    <div className="Web1">
+                        <img src={HTML} alt="#" id="HTML"></img>
+                        <p id="Bar"></p>
+                    </div>
+                    <div className="box">
+                        <div className="Web2">
+                            <img src={CSS} alt="#" id="CSS"></img>
+                            <p id="Bar"></p>
+                        </div>
+                        <div className="Web3">
+                            <img src={JS} alt="#" id="JS"></img>
+                            <p id="Bar"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+CSS
+
+.Language{
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap:20px;
+}
+
+#Bar{
+    width: 100%;
+    height: 10px;
+    background-color: green;
+    border-radius: 20px;
+}
+
+.LanName1{
+    animation: Lan1 3s forwards;
+}
+
+@keyframes Lan1{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 90%;
+    }
+}
+
+.LanName2{
+    animation: Lan2 3s forwards;
+}
+
+@keyframes Lan2{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 90%;
+    }
+}
+
+.LanName3{
+    animation: Lan3 3s forwards;
+}
+
+@keyframes Lan3{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 80%;
+    }
+}
+
+.LanName4{
+    animation: Lan4 3s forwards;
+}
+
+@keyframes Lan4{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 70%;
+    }
+}
+.WebDeveloping{
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.Web1{
+    animation: W1 3s forwards;
+}
+
+@keyframes W1{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 90%;
+    }
+}
+
+.Web2{
+    animation: W2 3s forwards;
+}
+
+@keyframes W2{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 80%;
+    }
+}
+
+.Web3{
+    animation: W3 3s forwards;
+}
+
+@keyframes W3{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 75%;
+    }
+}
+
+.box{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap:20px;
+}
+
+#C{
+    height: 30px;
+    width: 30px;
+}
+
+#Java{
+    height: 30px;
+    width: 50px;
+}
+
+#Python{
+    height: 30px;
+    width: 30px;
+}
+
+#Cpp{
+    height: 30px;
+    width: 30px;
+}
+
+#HTML{
+    height: 30px;
+    width: 30px;
+}
+
+#CSS{
+    height: 30px;
+    width: 30px;
+}
+
+#JS{
+    height: 30px;
+    width: 30px;
+}

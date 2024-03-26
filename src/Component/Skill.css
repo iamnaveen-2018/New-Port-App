@@ -1,0 +1,141 @@
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .Entire{
+    color:white;
+    background-image:url(./ProLang.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+.ProLang > h2{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.ProLang > p{
+    margin-left:50px;
+    margin-right: 50px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.SMain{
+    color: white;
+    height: 100vh;
+    background-image: url(./SkillImage.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.SMain > div{
+    display: grid;
+    grid-template-rows: auto;
+}
+#Big{
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.SCenterBody > p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    top:50%;
+    left: 45%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.WD > h2{
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.WD > p{
+    margin-left:50px;
+    margin-right: 50px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ProSol > h2{
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.ProSol > p{
+    margin-left:50px;
+    margin-right: 50px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Leet{
+    height: 200px;
+    width: 300px;
+    z-index: 1;
+}
+
+.Sites{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+
+.Opera > h2{
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}   
+
+.Opera > p{
+    margin-top: 10px;
+    margin-left:50px;
+    margin-right: 50px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Opera > ul > li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:50px;
+    margin-right: 50px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Net > h2{
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}  
+
+.Net > p{
+    margin-top: 10px;
+    margin-left:50px;
+    margin-right: 50px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Net > ul > li {
+    margin-top: 10px;
+    margin-left:50px;
+    margin-right: 50px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
